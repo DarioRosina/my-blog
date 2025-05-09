@@ -2,6 +2,8 @@
 
 Questo è un progetto per un blog costruito con [Next.js](https://nextjs.org/), un framework React per la produzione.
 
+Visita la versione online del [Blog](https://my-blog-q1pu.vercel.app/).
+
 ## Descrizione
 
 Questo progetto mira a fornire una piattaforma blog moderna, veloce e SEO-friendly. Utilizza le potenti funzionalità di Next.js come il rendering lato server (SSR), la generazione di siti statici (SSG), il routing basato su file system e l'ottimizzazione delle immagini.
