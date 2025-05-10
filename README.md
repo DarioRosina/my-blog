@@ -2,7 +2,7 @@
 
 Questo è un progetto per un blog costruito con [Next.js](https://nextjs.org/), un framework React per la produzione.
 
-Visita la versione online del [Blog](https://my-blog-dario-rosinas-projects.vercel.app).
+Visita la versione online del [Blog](https://my-blog-dario-rosina.vercel.app).
 
 ## Descrizione
 
