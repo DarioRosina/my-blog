@@ -4,6 +4,11 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  color: #A2422A; /* Colore per tema chiaro */
+}
+
+:global(.dark) .heading2Xl {
+  color: white; /* Colore per tema scuro */
 }
 
 .headingXl {
@@ -12,12 +17,23 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  color: #A2422A; /* Colore per tema chiaro */
+}
+
+:global(.dark) .headingXl {
+  color: white; /* Colore per tema scuro */
 }
 
 .headingLg {
+  font-family: 'Quando', serif !important;
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
+  color: #A2422A; /* Colore per tema chiaro */
+}
+
+:global(.dark) .headingLg {
+  color: white; /* Colore per tema scuro */
 }
 
 .headingMd {

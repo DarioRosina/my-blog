@@ -1,7 +1,7 @@
-import Layout from '../../components/layout'
+import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
-import Head from 'next/head'
-import Date from '../../components/date'
+import Head from 'next/head';
+import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
 
 export default function Post({ postData }) {
@@ -15,28 +15,26 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        {/* Applica la classe space-y-4 al div che contiene il contenuto del post */}
+        <div className="space-y-4" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
-  )
+  );
 }
 
-//restituisce un array di valori possibili per id
 export async function getStaticPaths() {
-  const paths = getAllPostIds()
-  //const paths = [{ params: { id: 'pre-rendering' } },{ params: { id: 'sabato' } },{ params: { id: 'ssg-ssr' } }]
+  const paths = getAllPostIds();
   return {
     paths,
-    fallback: false
-  }
+    fallback: false,
+  };
 }
 
-// fetch data per il post con id
 export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id)
+  const postData = await getPostData(params.id);
   return {
     props: {
-      postData
-    }
-  }
+      postData,
+    },
+  };
 }

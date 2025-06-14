@@ -1,7 +1,9 @@
 ---
-title: 'pageBuilderDaros (github)'
+title: 'pageBuilderDaros'
 date: '2025-05-09'
 ---
 Un semplice Page Builder drag-and-drop realizzato interamente in Vanilla JavaScript, con il supporto di Bootstrap per la struttura e lo stile.
 
 Visita la versione online: [pageBuilderDaros](https://page-builder-daros.vercel.app)
+
+[![Anteprima dell'applicazione](/images/previewInterface_001.jpg)](https://page-builder-daros.vercel.app)
