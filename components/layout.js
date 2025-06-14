@@ -9,7 +9,7 @@ import ThemeToggleButton from './ThemeToggleButton';
 const Image = NextImageModule.default; // Accedi al componente effettivo dalla proprietà .default
 
 const name = 'Dario Rosina';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Lista dei posts - <daros>';
 
 export default function Layout({ children, home }) {
     if (!Image) {
