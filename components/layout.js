@@ -1,23 +1,14 @@
 import Head from 'next/head';
-// import Image from 'next/image'; // Vecchia importazione
-import NextImageModule from 'next/image'; // Importa l'oggetto modulo
+import Image from 'next/image'; // Import standard
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import ThemeToggleButton from './ThemeToggleButton';
 
-const Image = NextImageModule.default; // Accedi al componente effettivo dalla proprietà .default
-
 const name = 'Dario Rosina';
 export const siteTitle = 'Lista dei posts - <daros>';
 
 export default function Layout({ children, home }) {
-    if (!Image) {
-        // Fallback o messaggio di errore se Image.default non fosse definito
-        // Anche se dai log sappiamo che dovrebbe esserlo.
-        console.error("Componente Image non caricato correttamente!");
-        return <div>Errore nel caricamento del layout: Componente Immagine mancante.</div>;
-    }
     return (
         <div className={`${styles.container} relative min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white transition-colors rounded-lg pb-8`}>
             <Head>
