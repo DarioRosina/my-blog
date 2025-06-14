@@ -18,7 +18,7 @@ export default function FirstPost() {
       <h1>Primo Post</h1>
     <h2><Link href="/" className="myLink">Back Home</Link></h2>
     
-    <Image src="/images/profilo.jpg" height={144} width={144} alt="profilo"/>
+    <Image src="/images/fotoProfilo002.jpg" height={144} width={144} alt="profilo"/>
     </Layout>
   )
 }
