@@ -6,4 +6,4 @@ Un'esperienza immersiva per esplorare il sistema solare in 3D con animazioni rea
 
 Visita la versione online: [solar3Daros](https://solar3-daros.vercel.app/)
 
-[![Anteprima dell'applicazione](/images/previewInterface_002.jpg)](https://solar3-daros.vercel.app/)
+[![Anteprima dell'applicazione](/images/previewInterface_002.gif)](https://solar3-daros.vercel.app/)
