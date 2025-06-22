@@ -6,4 +6,4 @@ Un semplice Page Builder drag-and-drop realizzato interamente in Vanilla JavaScr
 
 Visita la versione online: [pageBuilderDaros](https://page-builder-daros.vercel.app)
 
-[![Anteprima dell'applicazione](/images/previewInterface_001.jpg)](https://page-builder-daros.vercel.app)
+[![Anteprima dell'applicazione](/images/previewInterface_001_ENG.gif)](https://page-builder-daros.vercel.app)
